@@ -59,13 +59,13 @@ You can lock or unlock your locks by their name.
 To unlock by name, run:
 
 ```ruby
-Lockitron::Locks.unlock_by_name("Lock Name")
+Lockitron::Locks.unlock("Lock Name")
 ```
 
 To lock by name, run:
 
 ```ruby
-Lockitron::Locks.lock_by_name("Lock Name")
+Lockitron::Locks.lock("Lock Name")
 ```
 
 ### Listing Locks

@@ -20,21 +20,21 @@ module Lockitron
       end
     end
 
-    def self.lock_names
+    def self.names
       @@names ||= all.collect { |lock| lock['lock']['name'] }
     end
 
-    def self.unlock_by_name(name)
-      @@lock = find_by_name(name)
-      access_lock(@@lock, "unlock")
+    def self.unlock(name)
+      @@lock = find(name)
+      access(@@lock, "unlock")
     end
 
-    def self.lock_by_name(name)
-      @@lock = find_by_name(name)
-      access_lock(@@lock, "lock")
+    def self.lock(name)
+      @@lock = find(name)
+      access(@@lock, "lock")
     end
 
-    def self.access_lock(lock, direction)
+    def self.access(lock, direction)
       url = "#{LOCKS_URL}/#{lock['id']}/#{direction}"
       RestClient.post url, :access_token => access_token do |response|
         if response.code == 200
@@ -47,7 +47,7 @@ module Lockitron
       end
     end
 
-    def self.find_by_name(name)
+    def self.find(name)
       @@lock = all.select { |lock| lock['lock']['name'] == name }
       if @@lock.empty?
         puts "No available lock named #{name}\n\n"

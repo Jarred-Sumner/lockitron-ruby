@@ -10,14 +10,14 @@ class LockitronBin < Thor
   method_option :access_token, :aliases => '-a', :desc => "Set the access token from Lockitron's REST API"
   def lock(name)
     Lockitron::Locks.access_token = options[:access_token]
-    Lockitron::Locks.lock_by_name(name)
+    Lockitron::Locks.lock(name)
   end
 
   desc 'unlock LOCK_NAME', 'unlocks one of the available locks by name'
   method_option :access_token, :aliases => '-a', :desc => "Set the access token from Lockitron's REST API"
   def unlock(name)
     Lockitron::Locks.access_token = options[:access_token]
-    Lockitron::Locks.unlock_by_name(name)
+    Lockitron::Locks.unlock(name)
   end
 
   desc 'list', "list all of the available locks"
