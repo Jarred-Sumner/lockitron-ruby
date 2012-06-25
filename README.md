@@ -1,5 +1,5 @@
 # Lockitron
-Lockitron lets you unlock your front door from anywhere in the world, including your smartphone. We have an iPhone app, an Android app, a webapp, a mobile web app, a REST API, and now, a RubyGem.
+[Lockitron](https://lockitron.com) lets you unlock your front door from anywhere in the world, including your smartphone. We have an iPhone app, an Android app, a webapp, a mobile web app, a REST API, and now, a RubyGem.
 
 This is a very early version of the gem. With it, you can lock, or unlock Lockitrons by their name.
 
