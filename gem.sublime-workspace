@@ -1,0 +1,1106 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"acce",
+				"access_token"
+			],
+			[
+				"reque",
+				"request_access_token"
+			],
+			[
+				"trigg",
+				"trigger_form_submission"
+			],
+			[
+				"email",
+				"email_selector"
+			],
+			[
+				"form_",
+				"jovia_form_ready_for_submission"
+			],
+			[
+				"emai",
+				"email_selector"
+			],
+			[
+				"employ",
+				"employee_ids"
+			],
+			[
+				"sign_in",
+				"sign_in_with_google"
+			],
+			[
+				"empl",
+				"employee_id"
+			],
+			[
+				"FAKE",
+				"FAKE_FACEBOOK_USERNAME"
+			],
+			[
+				"FAKE_F",
+				"FAKE_FACEBOOK_PASSWORD"
+			],
+			[
+				"config",
+				"configure_if_needed"
+			],
+			[
+				"lat",
+				"latLng"
+			],
+			[
+				"latLng",
+				"LatLng"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "require 'rubygems'\nrequire 'thor'\nrequire '../lib/api.rb'\n\nclass Unlock < Thor\n\n  desc 'LOCK_NAME', 'unlocks one of the available locks by name'\n  def unlock(name)\n    API.unlock_by_name(name)\n  end\n\n  default_task :unlock\n\nend\n\nUnlock.start",
+			"file": "bin/unlock.rb",
+			"file_size": 256,
+			"file_write_time": 129850537209716315,
+			"settings":
+			{
+				"buffer_size": 241,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 265,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/lockitron.rb",
+			"settings":
+			{
+				"buffer_size": 2645,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lockitron/README.md",
+			"settings":
+			{
+				"buffer_size": 1241,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 61.0,
+		"selected_items":
+		[
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"rails",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Programming/Lockitron/Gem/lockitron/README.rdoc",
+		"/E/Programming/Lockitron/Gem/lockitron/lockitron/lockitron.gemspec",
+		"/E/Programming/Lockitron/Gem/lockitron/lockitron/Gemfile",
+		"/E/Programming/Lockitron/Gem/lockitron/lockitron/Rakefile",
+		"/E/Programming/Lockitron/Gem/lockitron/Rakefile",
+		"/E/Programming/Lockitron/Gem/lockitron/lockitron/lib/lockitron/version.rb",
+		"/E/Programming/Lockitron/Gem/lockitron/Gemfile",
+		"/E/Programming/Lockitron/Gem/lockitron/lib/api.rb",
+		"/E/Programming/Lockitron/Gem/lockitron/bin/lock.rb",
+		"/E/Programming/Lockitron/Gem/lockitron/bin/lockitron",
+		"/E/Programming/Lockitron/Gem/lockitron/bin/lockitron.rb",
+		"/E/Programming/Lockitron/Gem/lockitron/bin/unlock.rb",
+		"/E/Programming/Lockitron/Gem/lockitron/bin/settings",
+		"/E/Programming/Lockitron/Gem/lockitron/lib/settings",
+		"/E/Programming/Lockitron/Gem/lockitron/lib/lockitron.thor",
+		"/E/Programming/Lockitron/Gem/lockitron/lib/thor.rb",
+		"/E/Programming/Lockitron/Gem/lockitron/lib/lockitron.rb",
+		"/E/Programming/Lockitron/Gem/lockitron/lib/settings.yaml",
+		"/E/Programming/Epigraph/app/views/donations/swipe_card.html.erb",
+		"/E/Programming/Lockitron/Windows Phone/Lockitron/Lockitron.csproj.user",
+		"/E/Programming/Epigraph/app/views/donations/set_amount.html.erb",
+		"/E/Programming/Lockitron/Windows Phone/Lockitron.sln",
+		"/E/Programming/Epigraph/app/controllers/donations_controller.rb",
+		"/E/Programming/Lockitron/Windows Phone/Lockitron/Lockitron.csproj",
+		"/E/Programming/Epigraph/config/routes.rb",
+		"/E/Programming/Epigraph/public/index.html",
+		"/E/Programming/Epigraph/config/database.yml",
+		"/E/Programming/Epigraph/app/models/organization.rb",
+		"/E/Programming/Epigraph/Gemfile",
+		"/E/Programming/Epigraph/app/models/donation.rb",
+		"/C/Program Files (x86)/Git/etc/profile",
+		"/E/Programming/Epigraph/db/migrate/20120619035332_create_donors.rb",
+		"/E/Programming/Epigraph/db/migrate/20120619035229_create_donations.rb",
+		"/E/Programming/Welcome/lib/monkey_patch_imap.rb",
+		"/E/Programming/Welcome/app/models/template.rb",
+		"/E/Programming/Welcome/db/schema.rb",
+		"/E/Programming/Welcome/Gemfile",
+		"/E/Programming/Welcome/app/views/install/index.html.erb",
+		"/E/Programming/Welcome/app/controllers/emails_controller.rb",
+		"/E/Programming/Welcome/app/models/employee.rb",
+		"/E/Programming/Welcome/app/models/email.rb",
+		"/E/Programming/Welcome/app/assets/javascripts/install.js.coffee",
+		"/E/Programming/Welcome/app/controllers/install_controller.rb",
+		"/E/Programming/JoviaSampleApp/app/views/users/new.html.erb",
+		"/E/Programming/Welcome/app/models/company.rb",
+		"/E/Programming/Welcome/config/initializers/configuration.rb",
+		"/E/Programming/Welcome/config/routes.rb",
+		"/E/Programming/Welcome/app/views/install/_javascript_html.html.erb",
+		"/E/Programming/Welcome/db/migrate/20120527032325_add_domain_to_company.rb",
+		"/E/Programming/Welcome/db/migrate/20120515230418_create_employees.rb",
+		"/E/Programming/Welcome/app/views/emails/index.html.erb",
+		"/E/Programming/Welcome/test/unit/helpers/email_helper_test.rb",
+		"/E/Programming/Welcome/test/unit/helpers/emails_helper_test.rb",
+		"/E/Multimedia/Downloads/attachment.bin",
+		"/E/Programming/Welcome/db/production.sqlite3",
+		"/E/Programming/Welcome/config/application.rb",
+		"/E/Programming/Welcome/public/humans.txt",
+		"/E/Programming/Welcome/app/views/install/_javascript.js.erb",
+		"/E/Programming/Welcome/config/initializers/omniauth.rb",
+		"/E/Programming/Welcome/app/controllers/sessions_controller.rb",
+		"/E/Programming/Welcome/config/config.yml",
+		"/E/Programming/Welcome/app/controllers/templates_controller.rb",
+		"/E/Programming/Welcome/config/initializers/session_store.rb",
+		"/E/Programming/Welcome/config.ru",
+		"/E/Programming/Welcome/log/development.log",
+		"/E/Programming/Welcome/app/mailers/email_mailer.rb",
+		"/E/GitHub/gmail-oauth-sinatra/config.ru",
+		"/E/Programming/Welcome/app/helpers/install_helper.rb",
+		"/E/Programming/Welcome/config/environments/development.rb",
+		"/E/Programming/Welcome/app/assets/javascripts/js.js.coffee",
+		"/E/Programming/Welcome/db/migrate/20120522022922_change_employee_id_in_emails_to_string.rb",
+		"/E/Programming/Welcome/test/functional/email_controller_test.rb",
+		"/E/Programming/Welcome/app/views/install/javascript.html.erb",
+		"/E/Programming/Welcome/app/controllers/application_controller.rb",
+		"/E/Programming/Welcome/app/views/install/javascript.rhtml",
+		"/E/Programming/Welcome/app/views/install/_javascript.coffee",
+		"/E/Programming/Welcome/app/assets/stylesheets/install.css.scss",
+		"/E/Programming/Welcome/app/assets/stylesheets/application.css.scss",
+		"/E/Programming/Welcome/app/views/install/update_selector.html.erb",
+		"/E/Programming/Welcome/app/views/install/_javascript.coffee.erb",
+		"/E/Programming/Welcome/app/views/install/javascript.coffee.erb",
+		"/E/Programming/Welcome/app/helpers/application_helper.rb",
+		"/E/Programming/Welcome/app/views/install/javascript.coffee",
+		"/E/Programming/Welcome/app/views/layouts/application.html.erb",
+		"/E/Programming/Welcome/db/migrate/20120516052832_create_rails_admin_histories_table.rb",
+		"/E/Programming/Welcome/app/views/templates/show.html.erb",
+		"/E/Programming/Welcome/app/views/templates/_variables.html.erb",
+		"/E/Programming/Welcome/app/helpers/templates_helper.rb",
+		"/E/Programming/Welcome/app/assets/stylesheets/templates.css.scss",
+		"/E/Programming/Welcome/config/initializers/simple_form.rb",
+		"/E/Programming/Welcome/db/migrate/20120526064119_change_body_to_text_in_templates.rb",
+		"/E/Programming/Welcome/app/assets/stylesheets/variables.css.scss",
+		"/E/Programming/Welcome/app/views/templates/index.html.erb",
+		"/E/Programming/Welcome/app/views/emails/show.html.erb",
+		"/E/Programming/Welcome/tmp/cache/sass/66ccafd9567ced38d96796a6c8b20dab75d517e7/_user-select.scssc",
+		"/E/Programming/Welcome/app/assets/stylesheets/emails.css.scss",
+		"/E/Programming/Welcome/app/assets/javascripts/application.js",
+		"/E/Programming/Welcome/app/assets/stylesheets/company.css.scss",
+		"/E/Programming/Welcome/app/views/company/templates.html.erb",
+		"/E/Programming/Welcome/app/controllers/company_controller.rb",
+		"/E/Programming/Welcome/db/migrate/20120525203220_rename_subject_to_raw_subject_and_rename_body_to_raw_body_in_template.rb",
+		"/E/Programming/Welcome/app/views/company/emails.html.erb",
+		"/E/Programming/Welcome/app/helpers/company_helper.rb",
+		"/E/Programming/Welcome/app/assets/javascripts/company.js.coffee",
+		"/E/Programming/Welcome/app/views/company/install.html.erb",
+		"/E/Programming/Welcome/app/views/company/js_file.js.erb",
+		"/E/Programming/Welcome/lib/javascript.rb",
+		"/E/Programming/Welcome/app/views/company/js_file.html.erb",
+		"/E/Programming/Welcome/app/assets/javascripts/welcomer.js.coffee",
+		"/E/Programming/Welcome/app/views/company/js_file.js.coffee.erb",
+		"/E/Programming/Welcome/app/views/company/js_file.js.coffee",
+		"/E/Programming/Welcome/app/views/company/welcomer.js.coffee.erb",
+		"/E/Programming/Welcome/db/migrate/20120525034846_add_email_selector_and_name_selector_to_company.rb",
+		"/E/Programming/Welcome/lib/yesno.rb",
+		"/E/Programming/Welcome/app/views/layouts/company.html.erb",
+		"/E/Programming/Welcome/app/views/company/index.html.erb",
+		"/E/Programming/Welcome/app/views/layouts/companies.html.erb",
+		"/E/Programming/Welcome/app/views/account/sign_up.html.erb",
+		"/E/Programming/Welcome/db/migrate/20120515225730_create_companies.rb",
+		"/E/Programming/Welcome/db/migrate/20120515225611_create_templates.rb",
+		"/E/Programming/Welcome/config/database.yml",
+		"/E/Programming/Welcome/app/assets/stylesheets/account.css.scss",
+		"/E/Programming/Welcome/app/controllers/account_controller.rb",
+		"/E/Programming/Welcome/app/views/company/new.html.erb",
+		"/E/Programming/Welcome/app/views/sessions/new.html.erb",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/E/Programming/Welcome/test/functional/templates_controller_test.rb",
+		"/E/Programming/Welcome/app/controllers/session_controller.rb"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"API.",
+			"Lockitron",
+			"access_token =",
+			"JSON",
+			"api_key",
+			"name",
+			"t.integer",
+			"end",
+			"company",
+			"))",
+			"exit",
+			"FILEPATH",
+			"jarred.sumner"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"access_token",
+			"filepath"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "bin/unlock.rb",
+					"settings":
+					{
+						"buffer_size": 241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "lib/lockitron.rb",
+					"settings":
+					{
+						"buffer_size": 2645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								996,
+								996
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lockitron/README.md",
+					"settings":
+					{
+						"buffer_size": 1241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1098,
+								1098
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 122.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"readm",
+				"lockitron/README.md"
+			],
+			[
+				"readme",
+				"README.rdoc"
+			],
+			[
+				"lockitron.gemspec",
+				"lockitron/lockitron.gemspec"
+			],
+			[
+				"gemfile",
+				"lockitron/Gemfile"
+			],
+			[
+				"rakefile",
+				"lockitron/Rakefile"
+			],
+			[
+				"gemspec",
+				"lockitron/lockitron.gemspec"
+			],
+			[
+				"version",
+				"lockitron/lib/lockitron/version.rb"
+			],
+			[
+				"rakef",
+				"Rakefile"
+			],
+			[
+				"lockit",
+				"bin/lockitron.rb"
+			],
+			[
+				"unlock",
+				"bin/unlock.rb"
+			],
+			[
+				"setting",
+				"bin/settings"
+			],
+			[
+				"sett",
+				"lib/settings"
+			],
+			[
+				"settin",
+				"lib/settings"
+			],
+			[
+				"api.",
+				"lib/api.rb"
+			],
+			[
+				"lockitron.thor",
+				"lib/lockitron.thor"
+			],
+			[
+				"lockitron",
+				"lib/lockitron.rb"
+			],
+			[
+				"se",
+				"lib/settings"
+			],
+			[
+				"settings",
+				"lib/settings"
+			],
+			[
+				"set",
+				"lib/settings.yaml"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"donation_co",
+				"app/controllers/donations_controller.rb"
+			],
+			[
+				"organiz",
+				"app/models/organization.rb"
+			],
+			[
+				"donation.rb",
+				"app/models/donation.rb"
+			],
+			[
+				"datab",
+				"config/database.yml"
+			],
+			[
+				"create_donors",
+				"db/migrate/20120619035332_create_donors.rb"
+			],
+			[
+				"create_don",
+				"db/migrate/20120619035229_create_donations.rb"
+			],
+			[
+				"patch",
+				"lib/monkey_patch_imap.rb"
+			],
+			[
+				"template",
+				"app/models/template.rb"
+			],
+			[
+				"template.rb",
+				"app/models/template.rb"
+			],
+			[
+				"email",
+				"app/models/email.rb"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"monkey",
+				"lib/monkey_patch_imap.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"employee",
+				"app/models/employee.rb"
+			],
+			[
+				"configur",
+				"config/initializers/configuration.rb"
+			],
+			[
+				"email.rb",
+				"app/models/email.rb"
+			],
+			[
+				"install.js",
+				"app/assets/javascripts/install.js.coffee"
+			],
+			[
+				"emails_controller",
+				"app/controllers/emails_controller.rb"
+			],
+			[
+				"install_controller",
+				"app/controllers/install_controller.rb"
+			],
+			[
+				"install.html",
+				"app/views/install/index.html.erb"
+			],
+			[
+				"_java",
+				"app/views/install/_javascript_html.html.erb"
+			],
+			[
+				"company",
+				"app/models/company.rb"
+			],
+			[
+				"emp",
+				"app/models/employee.rb"
+			],
+			[
+				"add_domain",
+				"db/migrate/20120527032325_add_domain_to_company.rb"
+			],
+			[
+				"create_employe",
+				"db/migrate/20120515230418_create_employees.rb"
+			],
+			[
+				"email_controller",
+				"app/controllers/emails_controller.rb"
+			],
+			[
+				"instal",
+				"app/assets/javascripts/install.js.coffee"
+			],
+			[
+				"email_helper",
+				"test/unit/helpers/email_helper_test.rb"
+			],
+			[
+				"emails_helper",
+				"test/unit/helpers/emails_helper_test.rb"
+			],
+			[
+				"index",
+				"app/views/emails/index.html.erb"
+			],
+			[
+				"configuration",
+				"config/initializers/configuration.rb"
+			],
+			[
+				"emailr",
+				"app/models/email.rb"
+			],
+			[
+				"session_controller",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"templates_controller",
+				"app/controllers/templates_controller.rb"
+			],
+			[
+				"sesion",
+				"config/initializers/session_store.rb"
+			],
+			[
+				"config.yml",
+				"config/config.yml"
+			],
+			[
+				"config",
+				"config.ru"
+			],
+			[
+				"devel",
+				"log/development.log"
+			],
+			[
+				"empl",
+				"app/models/employee.rb"
+			],
+			[
+				"omniauth",
+				"config/initializers/omniauth.rb"
+			],
+			[
+				"configu",
+				"config/initializers/configuration.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"application.rb",
+				"config/application.rb"
+			],
+			[
+				"email_mailer",
+				"app/mailers/email_mailer.rb"
+			],
+			[
+				"develop",
+				"config/environments/development.rb"
+			],
+			[
+				"session",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"sesion_",
+				"config/initializers/session_store.rb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"oauth",
+				"config/initializers/omniauth.rb"
+			],
+			[
+				"schm",
+				"db/schema.rb"
+			],
+			[
+				"js.",
+				"app/assets/javascripts/js.js.coffee"
+			],
+			[
+				"comp",
+				"app/models/company.rb"
+			],
+			[
+				"js.js",
+				"app/assets/javascripts/js.js.coffee"
+			],
+			[
+				"_javascrip",
+				"app/views/install/_javascript_html.html.erb"
+			],
+			[
+				"install_helper",
+				"app/helpers/install_helper.rb"
+			],
+			[
+				"javascrip",
+				"app/views/install/javascript.html.erb"
+			],
+			[
+				"javascript",
+				"app/views/install/javascript.html.erb"
+			],
+			[
+				"_",
+				"app/views/install/_javascript.js.erb"
+			],
+			[
+				"js",
+				"app/assets/javascripts/js.js.coffee"
+			],
+			[
+				"_javascript",
+				"app/views/install/_javascript_html.html.erb"
+			],
+			[
+				"application_controller",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"java",
+				"app/views/install/_javascript.coffee"
+			],
+			[
+				"install/inde",
+				"app/views/install/index.html.erb"
+			],
+			[
+				"application.css",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"install.css",
+				"app/assets/stylesheets/install.css.scss"
+			],
+			[
+				"install",
+				"app/assets/javascripts/install.js.coffee"
+			],
+			[
+				"emails_",
+				"app/controllers/emails_controller.rb"
+			],
+			[
+				"application_helper",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"application.htm",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"application.html",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"templates_helper",
+				"app/helpers/templates_helper.rb"
+			],
+			[
+				"_variables",
+				"app/views/templates/_variables.html.erb"
+			],
+			[
+				"templates.css",
+				"app/assets/stylesheets/templates.css.scss"
+			],
+			[
+				"simple_form",
+				"config/initializers/simple_form.rb"
+			],
+			[
+				"change_body",
+				"db/migrate/20120526064119_change_body_to_text_in_templates.rb"
+			],
+			[
+				"template_controller",
+				"app/controllers/templates_controller.rb"
+			],
+			[
+				"show.h",
+				"app/views/templates/show.html.erb"
+			],
+			[
+				"show",
+				"app/views/templates/show.html.erb"
+			],
+			[
+				"variables",
+				"app/assets/stylesheets/variables.css.scss"
+			],
+			[
+				"_varia",
+				"app/views/templates/_variables.html.erb"
+			],
+			[
+				"user",
+				"tmp/cache/sass/66ccafd9567ced38d96796a6c8b20dab75d517e7/_user-select.scssc"
+			],
+			[
+				"templates/index",
+				"app/views/templates/index.html.erb"
+			],
+			[
+				"varia",
+				"app/assets/stylesheets/variables.css.scss"
+			],
+			[
+				"application.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"company.css",
+				"app/assets/stylesheets/company.css.scss"
+			],
+			[
+				"rename",
+				"db/migrate/20120525203220_rename_subject_to_raw_subject_and_rename_body_to_raw_body_in_template.rb"
+			],
+			[
+				"company_helper",
+				"app/helpers/company_helper.rb"
+			],
+			[
+				"compan",
+				"app/models/company.rb"
+			],
+			[
+				"emails.html",
+				"app/views/company/emails.html.erb"
+			],
+			[
+				"company.js",
+				"app/assets/javascripts/company.js.coffee"
+			],
+			[
+				"company_controler",
+				"app/controllers/company_controller.rb"
+			],
+			[
+				"cofig.yml",
+				"config/config.yml"
+			],
+			[
+				"company_controller",
+				"app/controllers/company_controller.rb"
+			],
+			[
+				"js_file",
+				"app/views/company/js_file.js.erb"
+			],
+			[
+				"application",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"welcomer.js",
+				"app/assets/javascripts/welcomer.js.coffee"
+			],
+			[
+				"compay_controller",
+				"app/controllers/company_controller.rb"
+			],
+			[
+				"w",
+				"app/assets/javascripts/welcomer.js.coffee"
+			],
+			[
+				"welcomer",
+				"app/assets/javascripts/welcomer.js.coffee"
+			],
+			[
+				"add_name",
+				"db/migrate/20120525034846_add_email_selector_and_name_selector_to_company.rb"
+			],
+			[
+				"develo",
+				"log/development.log"
+			],
+			[
+				"email_contro",
+				"app/controllers/emails_controller.rb"
+			],
+			[
+				"emai",
+				"app/controllers/emails_controller.rb"
+			],
+			[
+				"yesno",
+				"lib/yesno.rb"
+			],
+			[
+				"change",
+				"db/migrate/20120522022922_change_employee_id_in_emails_to_string.rb"
+			],
+			[
+				"company.rb",
+				"app/models/company.rb"
+			],
+			[
+				"install.",
+				"app/views/company/install.html.erb"
+			],
+			[
+				"company.html.erb",
+				"app/views/layouts/company.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 392.0,
+	"status_bar_visible": true
+}
