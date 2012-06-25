@@ -11,7 +11,7 @@ You need two things for this gem. Firstly, you need a Lockitron-powered door loc
 
 Run the following:
 
-  Lockitron.access_token = ACCESS_TOKEN
+  Lockitron::Lockitron.access_token = ACCESS_TOKEN
 
 Replace ACCESS_TOKEN with the access token of your choosing.
 
@@ -23,11 +23,11 @@ You can lock or unlock your locks by their name.
 
 To unlock by name, run:
 
-  Lockitron.unlock_by_name("Name")
+  Lockitron::Lockitron.unlock_by_name("Name")
 
 ### Locking by Name
 To lock by name, run:
   
-  Lockitron.lock_by_name("Home")
+  Lockitron::Lockitron.lock_by_name("Home")
 
 

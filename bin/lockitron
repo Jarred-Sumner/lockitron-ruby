@@ -4,23 +4,29 @@ require 'rubygems'
 require 'thor'
 require 'lockitron'
 
-class Lockitron < Thor
+class LockitronBin < Thor
 
   desc 'lock LOCK_NAME', 'locks one of the available locks by name'
+  method_option :access_token, :aliases => '-a', :desc => "Set the access token from Lockitron's REST API"
   def lock(name)
-    API.lock_by_name(name)
+    Lockitron::Locks.access_token = options[:access_token]
+    Lockitron::Locks.lock_by_name(name)
   end
 
   desc 'unlock LOCK_NAME', 'unlocks one of the available locks by name'
+  method_option :access_token, :aliases => '-a', :desc => "Set the access token from Lockitron's REST API"
   def unlock(name)
-    API.unlock_by_name(name)
+    Lockitron::Locks.access_token = options[:access_token]
+    Lockitron::Locks.unlock_by_name(name)
   end
 
   desc 'list', "list all of the available locks"
+  method_option :access_token, :aliases => '-a', :desc => "Set the access token from Lockitron's REST API"
   def list
-    API.available_locks
+    Lockitron::Locks.access_token = options[:access_token]
+    Lockitron::Locks.list
   end
 
 end
 
-Lockitron.start
+LockitronBin.start
