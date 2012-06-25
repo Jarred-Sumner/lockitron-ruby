@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.name = "lockitron"
   gem.homepage = "http://github.com/jarred-sumner/lockitron"
   gem.license = "MIT"
-  gem.summary = %Q{Lock and unlock your lock your Lockitron-powered locks from Ruby}
+  gem.summary = %Q{Lock and unlock your lock your Lockitron-powered locks from bash and Ruby}
   gem.description = %Q{Lockitron lets you unlock your front door from anywhere in the world, including your smartphone. We have an iPhone app, an Android app, a webapp, a mobile web app, a REST API, and now, a RubyGem.}
   gem.email = "jarred@lockitron.com"
   gem.authors = ["Jarred Sumner"]
