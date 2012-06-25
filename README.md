@@ -5,7 +5,7 @@ This is a very early version of the gem. With it, you can lock, or unlock Lockit
 
 ## Prerequisites
 
-You need two things for this gem. Firstly, you need a Lockitron-powered door lock, which you can buy at https://lockitron.com. Secondly, you'll need an access token. If you'll only use this for yourself, then go [grab your access token](https://api.lockitron.com/v1/oauth/applications). Right now, the gem doesn't handle authorization, so you'll need to manually switch out access tokens. We use OAuth2, if you'd like to [read up on how to authenticate with OAuth2](https://api.lockitron.com/v1/getting_started/authenticating_with_oauth).
+You need two things for this gem. Firstly, you need a Lockitron-powered door lock, which you can buy at https://lockitron.com. Secondly, you'll need an access token. If you'll only use this for yourself, then go grab [your access token](https://api.lockitron.com/v1/oauth/applications). Right now, the gem doesn't handle authorization, so you'll need to manually switch out access tokens. We use OAuth2, and we have a guide on [authenticating with it](https://api.lockitron.com/v1/getting_started/authenticating_with_oauth).
 
 ### Setting an Access Token
 To use the Lockitron gem or as a shell script, you'll need to set an access token. You can set it in Ruby or in bash, and it'll work either way. Although, I recommend that you set the access token as an environment variable. I've shown how to do that below
