@@ -1,6 +1,5 @@
 require 'rubygems'
-require 'bundler'
-
-Bundler.require
+require 'json'
+require 'rest-client'
 
 require 'lockitron/locks'
